@@ -22,15 +22,9 @@ The dataset used in this project contains historical data on cars, including the
 - <code>LastSeen</code>: the date when the listing was last seen
 The dataset is assumed to be available for analysis.
 
-The following columns were removed from the original dataset as they were deemed not relevant to the assessment of the car's value:
+The data contains columns that do not affect the real assessment of the car, such as DateCrawled, DateCreated, NumberOfPictures, PostalCode, and LastSeen. To minimize data processing time and reduce unnecessary noise, these columns were removed. The Zip code column was also excluded as it was considered too precise for location information, and it was suggested to use city or region-level data from open sources for better predictions.
 
-- DateCrawled: the date when the data was crawled
-- DateCreated: the date when the listing was created
-- NumberOfPictures: the number of pictures in the listing
-- PostalCode: the postal code for the location of the vehicle
-- LastSeen: the date when the listing was last seen
-
-It was decided to remove the PostalCode column as it was considered too precise and replaced with a more general location, such as city or region, to avoid overfitting and consider the user's location in predicting the car's value.
+There were also missing values in several columns, including VehicleType, FuelType, Gearbox, and Model. Two approaches were used to handle these missing values: inserting values based on the available information and deleting rows with missing values. The effectiveness of these approaches will be evaluated during model analysis to determine the best data preprocessing method.
 
 ## Libraries Used
 The following Python libraries were utilized in this project:
