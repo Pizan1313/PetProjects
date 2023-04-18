@@ -17,7 +17,7 @@ The following Python libraries were used in this project:
 - NLTK's WordNetLemmatizer: for lemmatization of English text data.
 
 ## Data Analysis and Preparation
-- The data consists of a dataset of over 150,000 English-language annotated comments.
+- The data consists of a [dataset](https://drive.google.com/file/d/1-s_BH-zc-pUOJjG8XfRo0cOZehmDOTsU/view?usp=share_link) of over 150,000 English-language annotated comments.
 - Comments are categorized into 2 classes: 0 - Normal comment, 1 - Toxic comment.
 - The data does not contain missing values or outliers.
 - Class distribution: 0 - 90%, 1 - 10%.
