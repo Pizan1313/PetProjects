@@ -7,7 +7,7 @@ The dataset used in this project can be found on Kaggle: Bank Turnover Dataset
 
 The dataset contains the following columns:
 
-- RowNumber: Row number
+- <code>RowNumber</code>: Row number
 - CustomerId: Unique identifier for each customer
 - Surname: Surname of the customer
 - CreditScore: Credit score of the customer
