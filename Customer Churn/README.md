@@ -25,13 +25,13 @@ The dataset contains the following columns:
 ## Dependencies
 The following Python libraries were used in this project:
 
-- Pandas (v1.2.4): for data analysis and manipulation.
-- NumPy (v1.22.2): for numerical computing and array operations.
-- Matplotlib (v3.5.1): for data visualization and plotting.
-- Seaborn (v0.11.2): for additional data visualization options.
-- Scikit-learn (v1.0.2): for machine learning models, evaluation metrics, and data preprocessing.
-- itertools (built-in): for combinations of hyperparameter tuning.
-- tqdm (v4.62.3): for progress bars and visualization of iteration progress.
+- Pandas: for data analysis and manipulation.
+- NumPy: for numerical computing and array operations.
+- Matplotlib: for data visualization and plotting.
+- Seaborn: for additional data visualization options.
+- Scikit-learn: for machine learning models, evaluation metrics, and data preprocessing.
+- itertools: for combinations of hyperparameter tuning.
+- tqdm: for progress bars and visualization of iteration progress.
 
 ## Results
 The project includes machine learning models, such as Decision Tree Classifier, Random Forest Classifier, Dummy Classifier, and Logistic Regression, trained on the Bank Turnover Dataset. The performance of these models was evaluated using various metrics, including accuracy, confusion matrix, recall, precision, F1-score, ROC AUC score, and precision-recall curve.
