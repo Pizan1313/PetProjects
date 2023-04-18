@@ -40,5 +40,5 @@ The project files include:
 - GridSearchCV results.
 - Final trained models.
 
-##Conclusion
+## Conclusion
 This project successfully built a machine learning model for predicting the toxicity of comments. The best performing model achieved an F1 score of 0.7625 on the test set with Logistic Regression, and 0.7579 with SGDClassifier. The project files include all the necessary code and results for reproducing the model and evaluating its performance.
