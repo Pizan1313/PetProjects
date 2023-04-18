@@ -1,7 +1,7 @@
 # Determination of the Value of Cars
 This project focuses on developing a model to determine the market value of cars for a used car dealership's app. Historical data, including technical specifications, equipment, and prices of vehicles, are available for analysis. The goal is to build an accurate and efficient prediction model while considering prediction quality, prediction speed, and study time.
 
-## Dataset
+## [Dataset](https://drive.google.com/file/d/1-s_BH-zc-pUOJjG8XfRo0cOZehmDOTsU/view?usp=share_link)
 The dataset used in this project contains historical data on cars, including the following columns:
 
 - <code>DateCrawled</code>: the date when the data was crawled
