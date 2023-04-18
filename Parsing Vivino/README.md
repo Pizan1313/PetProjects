@@ -1,7 +1,7 @@
 # Parsing Vivino
 This is a data science project that involves web scraping data from vivino.com, a wine review website. The project collects information about wines and their bottle images, and enriches the data with additional details based on the creator's 6-year experience as a sommelier. The project is implemented in Jupyter Notebook.
 
-Libraries Used
+## Libraries Used
 The following libraries were used in this project:
 
 - **fake_useragent** - for generating fake user agents to mimic browser requests
