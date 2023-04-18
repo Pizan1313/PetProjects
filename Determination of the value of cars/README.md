@@ -48,5 +48,5 @@ It was concluded that gradient boosting models are recommended for best results,
 ## Conclusion
 In conclusion, this project aims to develop a model for determining the market value of cars using historical data. Data preprocessing techniques were applied to handle missing values and unnecessary columns were removed to optimize model performance. The LGBMRegressor was identified as the best model for prediction accuracy, and key features affecting the quality of predictions were identified. Further model fine-tuning and evaluation may be necessary to achieve the desired level of prediction accuracy for the specific requirements of the project.
 
-Credits
+## Credits
 If you have any questions or feedback, please feel free to contact me. Happy coding!
