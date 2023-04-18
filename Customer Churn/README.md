@@ -41,6 +41,6 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 
 ## Credits
 - Kaggle for providing the Bank Turnover Dataset.
- -[Santosh Kumar D](https://www.kaggle.com/santoshd3) for creating and sharing the dataset on Kaggle.
+- [Santosh Kumar D](https://www.kaggle.com/santoshd3) for creating and sharing the dataset on Kaggle.
  
 If you have any questions or feedback, please feel free to contact me. Happy coding!
