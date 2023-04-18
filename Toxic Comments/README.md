@@ -5,6 +5,17 @@ This is a machine learning project that aims to build a model for predicting the
 - Business Objective: To quickly respond to toxic comments from users and promptly intercept these comments/users.
 - Evaluation Metric: F1 score.
 
+## Libraries/Dependencies
+The following Python libraries were used in this project:
+
+- Pandas: for data analysis and manipulation.
+- NumPy: for numerical computing and array operations.
+- Matplotlib: for data visualization and plotting.
+- Seaborn: for additional data visualization options.
+- Scikit-learn: for machine learning models, evaluation metrics, and data preprocessing.
+- NLTK: for natural language processing tasks, such as stopword removal.
+- NLTK's WordNetLemmatizer: for lemmatization of English text data.
+
 ## Data Analysis and Preparation
 - The data consists of a dataset of over 150,000 English-language annotated comments.
 - Comments are categorized into 2 classes: 0 - Normal comment, 1 - Toxic comment.
