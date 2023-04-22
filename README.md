@@ -16,7 +16,7 @@ Here's a list of the projects currently available in this repository:
 - Toxic Comments
 - Well location selection
 - Parsing Vivino
-...
+
 Each project is contained within its own subdirectory, with its own README.md file describing the project in detail.
 
 ## Contributions
