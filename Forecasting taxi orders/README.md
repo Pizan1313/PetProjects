@@ -1,15 +1,30 @@
 #  Forecasting taxi orders
 
-The company has collected historical data on taxi orders at airports. We need to predict the number of taxi orders for the next hour to attract more drivers during the peak period. Build a model for such a prediction.
+This is my data science project on "Forecasting Taxi Orders" where I built a model to predict the number of taxi orders for the next hour based on historical data. The data consists of the number of taxi orders at airports from March to August, and the task is to predict the number of orders for the next hour to attract more drivers during peak periods. The goal is to achieve an RMSE metric on the test set of less than 48.
 
-The value of the *RMSE* metric on the test set should not exceed 48.
+## Methodology
 
-We need:
+The project involves the following steps:
 
-1. Load the data and resample it one hour at a time.
-2. Analyze the data.
-3. Train different models with different hyperparameters. Make a test sample of 10% of the original data.
-4. Check the data on the test sample and conclude.
+Loading the data and resampling it one hour at a time.
+Analyzing the data to identify trends and seasonality.
+Training different models with different hyperparameters and creating a test sample of 10% of the original data.
+Checking the data on the test sample and concluding.
+
+## Results
+
+The best regressor for this task was the XGBRegressor, which achieved an RMSE of 44.71 on the test set. Additionally, we used the SARIMAX model which achieved a lower RMSE of 39.34.
+
+## Analysis
+
+The analysis revealed that the time series data is stationary according to the Dickey-Fuller criterion, despite having a noticeable upward trend in the average value from month to month. The series exhibits monthly, weekly, and daily seasonality patterns. Therefore, we included the month, day, and week as additional features while building the models.
+
+## Libraries Used
+
+The libraries used in this project include Pandas, NumPy, Matplotlib, StatsModels, Scikit-Learn, XGBoost, Catboost, Lightgbm and SARIMAX.
 
 
-The data is in the `taxi.csv` file. The number of orders is in the `num_orders` column.
+
+
+
+
