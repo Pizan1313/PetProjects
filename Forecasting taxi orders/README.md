@@ -6,14 +6,15 @@ This is my data science project on "Forecasting Taxi Orders" where I built a mod
 
 The project involves the following steps:
 
-Loading the data and resampling it one hour at a time.
-Analyzing the data to identify trends and seasonality.
-Training different models with different hyperparameters and creating a test sample of 10% of the original data.
-Checking the data on the test sample and concluding.
+1. Loading the data and resampling it one hour at a time.
+2. Analyzing the data to identify trends and seasonality.
+3. Training different models with different hyperparameters and creating a test sample of 10% of the original data.
+4. Checking the data on the test sample and concluding.
 
 ## Results
 
-The best regressor for this task was the XGBRegressor, which achieved an RMSE of 44.71 on the test set. Additionally, we used the SARIMAX model which achieved a lower RMSE of 39.34.
+- The best regressor for this task was the XGBRegressor, which achieved an RMSE of 44.71 on the test set. 
+- Additionally, we used the SARIMAX model which achieved a lower RMSE of 39.34.
 
 ## Analysis
 
