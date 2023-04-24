@@ -54,7 +54,7 @@ class LR:
 
     def predict(self, test_features):
         return test_features.dot(self.w) + self.w0
-```python
+```
 
 ## Results and Analysis
 We tested the conversion algorithm by checking the coefficient of determination. We also found minor inaccuracies in the data on clients' salaries and corrected them. After correcting the inaccuracies, the data was brought to the required types, and the original file's size was reduced by about five times.
