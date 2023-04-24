@@ -49,7 +49,7 @@ The profit and risk calculation plan is as follows:
 
 ## Function Created for Profit and Risk Calculation
 The following function was created to calculate profit and risk:
-''' python
+```pythonn
 def profit_n_risk(predict, target, color):
     revenue = []
     
@@ -81,4 +81,4 @@ def profit_n_risk(predict, target, color):
         return ((int(lower), int(higher)), revenue, μ_revenue, risk, бурить)
     else: 
         return ((int(lower), int(higher)), revenue, μ_revenue, 'Higher than 2,5%', небурить)
-'''
+```
