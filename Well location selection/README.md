@@ -73,12 +73,12 @@ def profit_n_risk(predict, target, color):
     risk = st.percentileofscore(revenue, 0)
     
     # We leave only those regions in which the probability of losses is less than 2.5% and give instructions
-    бурить = 'To drill'
-    небурить = 'Not to Drill'
+    to_drill = 'To drill'
+    not_to_drill = 'Not to Drill'
     
     
     if risk < 2.5:
-        return ((int(lower), int(higher)), revenue, μ_revenue, risk, бурить)
+        return ((int(lower), int(higher)), revenue, μ_revenue, risk, to_drill)
     else: 
-        return ((int(lower), int(higher)), revenue, μ_revenue, 'Higher than 2,5%', небурить)
+        return ((int(lower), int(higher)), revenue, μ_revenue, 'Higher than 2,5%', not_to_drill)
 ```
