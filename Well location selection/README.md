@@ -82,3 +82,34 @@ def profit_n_risk(predict, target, color):
     else: 
         return ((int(lower), int(higher)), revenue, μ_revenue, 'Higher than 2,5%', not_to_drill)
 ```
+We then run the function for all three regions, calculate the confidence interval, average, and risks.
+
+The results of our analysis will help determine the most promising region for investment, for which wells have data f0, f1, and f2. It is essential to define the areas so that the probability of loss (risk) does not exceed 2.5%.
+
+## Conclusion:
+
+We have analyzed the data and built a Linear Regression model that helps us predict the amount of oil in each well. We then used this model to calculate the profit and risks for each region and determine the most promising region for investment.
+
+Using the initial data, we trained a model that estimated the volume of oil reserves according to the characteristics of the field. Based on this data, we were able to forecast the potential profit from 200 of the top 25,000 wells in each region.
+    
+The situation for all three regions is as follows:
+
+|Region|Average profit|Probability of loss|
+|-----|-----|----|
+| Region 1 | ≈ 420 million rubles | Above 2.5% |
+| Region 2 | ≈ 520 million rubles | Below 2.5% |
+| Region 3 | ≈ 420 million rubles | Above 2.5% |
+
+It is best to choose the second region for drilling. This is also clearly demonstrated by the confidence interval values for all areas.
+    
+|Region|Start|End|
+|-----|-----|----|
+| Region 1 | ≈ -100 million | ≈ 950 million |
+| Region 2 | ≈ 100 million | ≈ 950 million |
+| Region 3 | ≈ -110 million | ≈ 990 million |
+
+Negative revenue is so unlikely for the second region that it does not fall within the confidence interval. If you believe the 95% confidence interval, then the probability of losses is zero. At the same time, the potential profit value is approximately the same as in the other areas and amounts to a little more than 900 million rubles.
+    
+The only thing that can affect the success of choosing wells in the second region for the current calculation is a drop in the price per barrel of oil.
+
+Overall, this project shows the importance of data analysis and machine learning in decision-making processes for businesses. By leveraging data-driven insights, companies can make informed decisions that can lead to higher profits and better outcomes.
